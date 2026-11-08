@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VPN APK 逆向成果</title>
+<style>
+:root{--bg:#0f1115;--card:#1a1f2a;--fg:#e8eaf0;--dim:#8b93a7;--acc:#4f8cff;--ok:#3fb96f;--bad:#e05656}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 system-ui,"Microsoft YaHei";padding:24px;max-width:1080px;margin:0 auto}
+h1{font-size:22px;margin-bottom:4px}.sub{color:var(--dim);margin-bottom:24px}
+.card{background:var(--card);border-radius:10px;padding:16px 20px;margin-bottom:16px}
+.card h2{font-size:16px;margin-bottom:10px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:6px 10px;border-bottom:1px solid #2a3040}
+th{color:var(--dim);font-weight:500}
+.badge{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px}
+.ok{background:#1d3a2a;color:var(--ok)}.bad{background:#3a1d1d;color:var(--bad)}.mid{background:#3a3220;color:#d9b44a}
+code{background:#0d1017;padding:2px 6px;border-radius:4px;font-size:13px}
+.note{color:var(--dim);font-size:13px;margin-top:8px}
+</style>
+</head>
+<body>
+<h1>VPN APK 逆向成果面板</h1>
+<div class="sub">Wolf Custom VPN · StagVPN · Bee VPN — 端点 / 节点 / 密钥状态总览（本地 demo，数据不出本机）</div>
+
+<div class="card">
+<h2>状态总表</h2>
+<table>
+<tr><th>APK</th><th>配置端点</th><th>协议</th><th>节点数</th><th>密钥/凭据</th><th>状态</th></tr>
+<tr><td>StagVPN v19</td><td><code>server.stagvpn.com/api/v1/app-data-new</code></td><td>OpenVPN (UDP 1194) + IKEv2</td><td>3（Falkenstein / Nuremberg / Dubai）</td><td>✅ 免登录全量：CA + 账号密码内联</td><td><span class="ok">已验证</span></td></tr>
+<tr><td>Wolf Custom v2.8.1.2</td><td><code>strongteam.co/api/wolfcustom/newv1.txt</code>（已 404）</td><td>OVPN / Hysteria / VLESS-WS-TLS / SSH</td><td>1（sg.phfiles.com，内置兜底）</td><td>✅ AES-256-GCM 固定 key 已还原</td><td><span class="mid">云端下架，内置可用</span></td></tr>
+<tr><td>Bee VPN v1.10.11.2</td><td><code>strongteam.co/nets/</code>（403，无 UA 校验未过）</td><td>同 Wolf 内核（v2rayNG fork）</td><td>解密中（MMCONFIGKEY 体系）</td><td>⏳ Go 侧 key 待提取</td><td><span class="mid">进行中</span></td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>StagVPN 泄漏节点（免认证接口直出）</h2>
+<table>
+<tr><th>ID</th><th>名称</th><th>IP</th><th>协议</th><th>免费</th><th>在线用户</th><th>本机连通</th></tr>
+<tr><td>837</td><td>Falkenstein (DE)</td><td><code>198.51.100.10</code></td><td>OVPN UDP 1194</td><td>是</td><td>232</td><td><span class="ok">ping 通</span></td></tr>
+<tr><td>846</td><td>Nuremberg (DE)</td><td><code>198.51.100.11</code></td><td>OVPN UDP 1194</td><td>是</td><td>369</td><td><span class="ok">ping 通</span></td></tr>
+<tr><td>851</td><td>MENA-01 Dubai</td><td><code>198.51.100.12</code></td><td>OVPN UDP 1194</td><td>是</td><td>67</td><td><span class="bad">ICMP 不通</span></td></tr>
+</table>
+<div class="note">凭据：ikev2_user_name / ikev2_user_password 字段即 OpenVPN auth-user-pass（如 &lt;user&gt; / &lt;pass&gt;）。TCP 1194 全部超时 → 确认为 UDP-only，符合 opnconfig 的 proto udp4。</div>
+</div>
+
+<div class="card">
+<h2>Wolf Custom 内置节点（AES-GCM 解密产物）</h2>
+<table>
+<tr><th>名称</th><th>主机</th><th>OVPN 端口</th><th>默认凭据</th><th>本机连通</th></tr>
+<tr><td>Test (SG)</td><td><code>sg.phfiles.com (DNS 可解析)</td><td>TCP 110 / UDP 53</td><td>&lt;user&gt; / &lt;pass&gt;</td><td><span class="bad">全部超时（疑似地域锁或已废弃）</span></td></tr>
+</table>
+<div class="note">Networks 提供 3 条连接方式：Direct / WebSocket WS 注入（speedtest.net 域前置）/ research.net 分片 payload。UDP obfs 密码 sandok，SlowDNS key 已提取。</div>
+</div>
+
+<div class="card">
+<h2>代理池入池评估</h2>
+<table>
+<tr><th>来源</th><th>可入池性</th><th>说明</th></tr>
+<tr><td>StagVPN 3 节点</td><td><span class="mid">技术可行 / 授权存疑</span></td><td>接口公开无鉴权 → 可用 OpenVPN 客户端直接拨号转 SOCKS。但这些是 Stag 运营方的生产设施，接入线上池属未授权使用第三方基础设施，需自行评估风险（IP 被封 / 法律边界）。</td></tr>
+<tr><td>Wolf SG 节点</td><td><span class="bad">当前不可用</span></td><td>端口全部超时，即便解密成功也无产出。</td></tr>
+<tr><td>结论</td><td colspan="2">按 VPN-US / VPN-Super / VPN.lat 三单的老规矩：本研究产出（协议文档 / 密钥 / 工具链 / demo）可以完整沉淀；<b>节点 IP 本身不建议直接进生产池</b>，优先作为压力测试与协议验证靶标。</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>API</h2>
+<div><code>GET /api/data</code> — 全量数据 · <code>GET /api/health</code> — 健康检查</div>
+</div>
+
+<script>
+fetch('/api/data').then(r=>r.json()).then(d=>{
+  const el=document.querySelector('.sub');
+  el.textContent += ` · 数据加载 ${new Date().toLocaleTimeString()} · Wolf networks ${d.wolf.networks.length} · Stag ikev2 ${d.stagvpn.ikev2servers.length}`;
+}).catch(()=>{});
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+ "note": "sanitized per RFC5737; real endpoints in private run artifacts (gitignored)",
+ "ikev2servers": [
+  {
+   "id": 837,
+   "country_id": 13,
+   "server_name": "Falkenstein",
+   "provider": "stagvpn-vpn-de-fsn1-01",
+   "ip": "198.51.100.10",
+   "ikev2_user_name": "<REDACTED>",
+   "ikev2_user_password": "<REDACTED>",
+   "is_free": 1,
+   "status": 1,
+   "ping": 12,
+   "connected_user": 232,
+   "created_at": "2026-08-31T21:28:54.000000Z",
+   "updated_at": "2026-11-08T18:43:18.000000Z",
+   "protocol": "2",
+   "opnconfig_present": true,
+   "opnconfig_shape": "client/dev tun/proto udp4/remote 198.51.100.10 1194/.../<ca>…PEM…"
+  },
+  {
+   "id": 846,
+   "country_id": 13,
+   "server_name": "Nuremberg",
+   "provider": "AT&T Internet",
+   "ip": "198.51.100.11",
+   "ikev2_user_name": "<REDACTED>",
+   "ikev2_user_password": "<REDACTED>",
+   "is_free": 1,
+   "status": 1,
+   "ping": 10,
+   "connected_user": 369,
+   "created_at": "2026-09-16T08:08:44.000000Z",
+   "updated_at": "2026-11-08T20:37:13.000000Z",
+   "protocol": "2",
+   "opnconfig_present": true,
+   "opnconfig_shape": "client/dev tun/proto udp4/remote 198.51.100.11 1194/.../<ca>…PEM…"
+  },
+  {
+   "id": 851,
+   "country_id": 113,
+   "server_name": "MENA-01 Dubai",
+   "provider": "Oracle Dubai",
+   "ip": "198.51.100.12",
+   "ikev2_user_name": "<REDACTED>",
+   "ikev2_user_password": "<REDACTED>",
+   "is_free": 1,
+   "status": 1,
+   "ping": 10,
+   "connected_user": 67,
+   "created_at": "2026-10-10T11:21:46.000000Z",
+   "updated_at": "2026-11-08T19:30:32.000000Z",
+   "protocol": "2",
+   "opnconfig_present": true,
+   "opnconfig_shape": "client/dev tun/proto udp4/remote 198.51.100.12 1194/.../<ca>…PEM…"
+  }
+ ],
+ "server_count": 0,
+ "countries": 119
+}

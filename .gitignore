@@ -1,0 +1,12 @@
+# 逆向产物知识库 — 三 APK（StagVPN / Wolf / Bee VPN）
+
+运行期产物、真实节点凭据、真实 IP 不入库（见 .gitignore）。
+
+*.log
+*.tmp
+__pycache__/
+# sanitized samples are OK; raw captures with real creds/IPs are not:
+stag_raw*.json
+wolf_raw*.json
+*_cred.txt
+*.ovpn

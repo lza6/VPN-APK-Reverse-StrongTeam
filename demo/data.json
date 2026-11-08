@@ -1,0 +1,1181 @@
+{
+ "stagvpn": {
+  "config": {
+   "id": 1,
+   "app_name": "Stag VPN",
+   "maintenance": "0",
+   "app_version": "12",
+   "is_required_app_update": "1",
+   "is_show_ad": "0",
+   "server_version": 3099,
+   "app_notices": "",
+   "support_email": "support@stagvpn.com",
+   "free_server_timer": "14700",
+   "is_show_app_open_ad": "0",
+   "interstitial_ad_mode": "0",
+   "banner_ad_mode": "0",
+   "reward_ad_mode": "0",
+   "android_ad_network": "1",
+   "admob_banner_unit": "ca-app-pub-5072379467952434/1876248518",
+   "admob_interstitial_unit": "ca-app-pub-5072379467952434/8193338640",
+   "admob_rewarded": "ca-app-pub-5072379467952434/5862171854",
+   "admob_interstitial_rewarded": "ca-app-pub-5072379467952434/9454449423",
+   "admob_app_open_unit": "ca-app-pub-5072379467952434/8835502321",
+   "facebook_banner_unit": "809255524740317_8013535397849",
+   "facebook_interstitial_unit": "809255524740317_7857328546803",
+   "facebook_rewarded_unit": "",
+   "facebook_interstitial_ad_mode": "0",
+   "facebook_banner_ad_mode": "0",
+   "facebook_reward_ad_mode": "0",
+   "unity_interstitial_ad_mode": "3",
+   "unity_banner_ad_mode": "0",
+   "unity_reward_ad_mode": "0",
+   "unity_game_id": "rewg",
+   "unity_banner_unit": "gfrewg",
+   "unity_interstitial_unit": "rgreg",
+   "unity_rewarded_unit": "greg",
+   "ios_is_show_ad": "0",
+   "ios_free_server_timer": "012",
+   "ios_is_show_app_open_ad": "0",
+   "ios_interstitial_ad_mode": "0",
+   "ios_banner_ad_mode": "0",
+   "ios_reward_ad_mode": "0",
+   "ios_facebook_interstitial_ad_mode": 0,
+   "ios_facebook_banner_ad_mode": 0,
+   "ios_facebook_reward_ad_mode": 0,
+   "ios_unity_interstitial_ad_mode": "0",
+   "ios_unity_banner_ad_mode": "0",
+   "ios_unity_reward_ad_mode": "0",
+   "ios_admob_banner_unit": "12",
+   "ios_admob_interstitial_unit": "3241",
+   "ios_admob_rewarded": "2343",
+   "ios_admob_interstitial_rewarded": "124235",
+   "ios_admob_app_open_unit": "123124",
+   "ios_facebook_banner_unit": "garwg",
+   "ios_facebook_interstitial_unit": "gr",
+   "ios_facebook_rewarded_unit": "",
+   "ios_unity_game_id": "rgeghr",
+   "ios_unity_banner_unit": "hgre",
+   "ios_unity_interstitial_unit": "hrehfgrf",
+   "ios_unity_rewarded_unit": "hre",
+   "onesignal_app_id": "b3938410-e0fa-4b22-83ae-74d0a0b99836",
+   "max_login_device": "5",
+   "suspend_user": 0,
+   "device_count": 1,
+   "is_premium": 0,
+   "user_device_id": ""
+  },
+  "servers": [],
+  "ikev2servers": [
+   {
+    "id": 837,
+    "country_id": 13,
+    "server_name": "Falkenstein",
+    "provider": "stagvpn-vpn-de-fsn1-01",
+    "ip": "198.51.100.10",
+    "ikev2_user_name": "<REDACTED>",
+    "ikev2_user_password": "<REDACTED>",
+    "is_free": 1,
+    "status": 1,
+    "ping": 12,
+    "connected_user": 232,
+    "created_at": "2026-08-31T21:28:54.000000Z",
+    "updated_at": "2026-11-08T18:43:18.000000Z",
+    "protocol": "2"
+   },
+   {
+    "id": 846,
+    "country_id": 13,
+    "server_name": "Nuremberg",
+    "provider": "AT&T Internet",
+    "ip": "198.51.100.11",
+    "ikev2_user_name": "<REDACTED>",
+    "ikev2_user_password": "<REDACTED>",
+    "is_free": 1,
+    "status": 1,
+    "ping": 10,
+    "connected_user": 369,
+    "created_at": "2026-09-16T08:08:44.000000Z",
+    "updated_at": "2026-11-08T20:37:13.000000Z",
+    "protocol": "2"
+   },
+   {
+    "id": 851,
+    "country_id": 113,
+    "server_name": "MENA-01 Dubai",
+    "provider": "Oracle Dubai",
+    "ip": "198.51.100.12",
+    "ikev2_user_name": "<REDACTED>",
+    "ikev2_user_password": "<REDACTED>",
+    "is_free": 1,
+    "status": 1,
+    "ping": 10,
+    "connected_user": 67,
+    "created_at": "2026-10-10T11:21:46.000000Z",
+    "updated_at": "2026-11-08T19:30:32.000000Z",
+    "protocol": "2"
+   }
+  ],
+  "countries": [
+   {
+    "id": 1,
+    "country": "United States",
+    "flag_url": "https://server.stagvpn.com/flag/us.png",
+    "status": 1,
+    "created_at": "2024-04-04T18:40:51.000000Z",
+    "updated_at": "2025-06-30T00:44:33.000000Z"
+   },
+   {
+    "id": 2,
+    "country": "United Kingdom",
+    "flag_url": "https://server.stagvpn.com/flag/gb.png",
+    "status": 1,
+    "created_at": "2024-04-04T18:43:25.000000Z",
+    "updated_at": "2025-06-30T00:46:39.000000Z"
+   },
+   {
+    "id": 3,
+    "country": "India",
+    "flag_url": "https://server.stagvpn.com/flag/in.png",
+    "status": 1,
+    "created_at": "2024-08-03T08:16:07.000000Z",
+    "updated_at": "2025-07-14T03:36:39.000000Z"
+   },
+   {
+    "id": 4,
+    "country": "Canada",
+    "flag_url": "https://server.stagvpn.com/flag/ca.png",
+    "status": 1,
+    "created_at": "2024-09-18T16:13:16.000000Z",
+    "updated_at": "2025-06-30T00:51:06.000000Z"
+   },
+   {
+    "id": 5,
+    "country": "Brazil",
+    "flag_url": "https://server.stagvpn.com/flag/br.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:15:07.000000Z",
+    "updated_at": "2025-06-30T00:51:13.000000Z"
+   },
+   {
+    "id": 6,
+    "country": "Netherlands",
+    "flag_url": "https://server.stagvpn.com/flag/nl.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:15:22.000000Z",
+    "updated_at": "2025-06-30T00:51:25.000000Z"
+   },
+   {
+    "id": 7,
+    "country": "Singapore",
+    "flag_url": "https://server.stagvpn.com/flag/sg.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:15:35.000000Z",
+    "updated_at": "2025-07-08T05:36:35.000000Z"
+   },
+   {
+    "id": 8,
+    "country": "Australia",
+    "flag_url": "https://server.stagvpn.com/flag/au.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:15:53.000000Z",
+    "updated_at": "2025-06-30T00:51:29.000000Z"
+   },
+   {
+    "id": 9,
+    "country": "Poland",
+    "flag_url": "https://server.stagvpn.com/flag/pl.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:16:18.000000Z",
+    "updated_at": "2025-06-30T00:51:33.000000Z"
+   },
+   {
+    "id": 10,
+    "country": "Spain",
+    "flag_url": "https://server.stagvpn.com/flag/es.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:16:35.000000Z",
+    "updated_at": "2025-06-30T00:51:42.000000Z"
+   },
+   {
+    "id": 11,
+    "country": "France",
+    "flag_url": "https://server.stagvpn.com/flag/fr.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:16:49.000000Z",
+    "updated_at": "2025-06-30T00:51:46.000000Z"
+   },
+   {
+    "id": 12,
+    "country": "Bangladesh",
+    "flag_url": "https://server.stagvpn.com/flag/bd.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:17:00.000000Z",
+    "updated_at": "2025-06-30T00:51:51.000000Z"
+   },
+   {
+    "id": 13,
+    "country": "Germany",
+    "flag_url": "https://server.stagvpn.com/flag/de.png",
+    "status": 1,
+    "created_at": "2024-09-20T11:17:10.000000Z",
+    "updated_at": "2025-06-30T00:51:55.000000Z"
+   },
+   {
+    "id": 14,
+    "country": "Malaysia",
+    "flag_url": "https://server.stagvpn.com/flag/my.png",
+    "status": 1,
+    "created_at": "2024-10-08T05:00:12.000000Z",
+    "updated_at": "2025-06-30T00:52:10.000000Z"
+   },
+   {
+    "id": 15,
+    "country": "Romania",
+    "flag_url": "https://server.stagvpn.com/flag/ro.png",
+    "status": 1,
+    "created_at": "2024-10-08T05:03:26.000000Z",
+    "updated_at": "2025-06-30T00:52:14.000000Z"
+   },
+   {
+    "id": 16,
+    "country": "Switzerland",
+    "flag_url": "https://server.stagvpn.com/flag/ch.png",
+    "status": 1,
+    "created_at": "2024-10-08T05:03:50.000000Z",
+    "updated_at": "2025-06-30T00:52:21.000000Z"
+   },
+   {
+    "id": 17,
+    "country": "Iceland",
+    "flag_url": "https://server.stagvpn.com/flag/is.png",
+    "status": 1,
+    "created_at": "2024-10-08T05:04:26.000000Z",
+    "updated_at": "2025-06-30T00:52:28.000000Z"
+   },
+   {
+    "id": 18,
+    "country": "Cambodia",
+    "flag_url": "https://server.stagvpn.com/flag/kh.png",
+    "status": 1,
+    "created_at": "2024-10-08T05:04:45.000000Z",
+    "updated_at": "2025-06-30T00:52:37.000000Z"
+   },
+   {
+    "id": 19,
+    "country": "Japan",
+    "flag_url": "https://server.stagvpn.com/flag/jp.png",
+    "status": 1,
+    "created_at": "2024-10-09T04:30:14.000000Z",
+    "updated_at": "2025-06-30T00:54:03.000000Z"
+   },
+   {
+    "id": 20,
+    "country": "Hong Kong",
+    "flag_url": "https://server.stagvpn.com/flag/hk.png",
+    "status": 1,
+    "created_at": "2024-10-09T04:30:34.000000Z",
+    "updated_at": "2025-06-30T00:54:08.000000Z"
+   },
+   {
+    "id": 21,
+    "country": "Luxembourg",
+    "flag_url": "https://server.stagvpn.com/flag/lu.png",
+    "status": 1,
+    "created_at": "2024-10-09T04:31:07.000000Z",
+    "updated_at": "2025-06-30T00:54:14.000000Z"
+   },
+   {
+    "id": 22,
+    "country": "Russia",
+    "flag_url": "https://server.stagvpn.com/flag/ru.png",
+    "status": 1,
+    "created_at": "2024-10-09T04:32:18.000000Z",
+    "updated_at": "2025-06-30T00:54:19.000000Z"
+   },
+   {
+    "id": 23,
+    "country": "South Korea",
+    "flag_url": "https://server.stagvpn.com/flag/kr.png",
+    "status": 1,
+    "created_at": "2024-10-09T04:32:36.000000Z",
+    "updated_at": "2025-06-30T00:54:25.000000Z"
+   },
+   {
+    "id": 24,
+    "country": "Turkey",
+    "flag_url": "https://server.stagvpn.com/flag/tr.png",
+    "status": 1,
+    "created_at": "2024-10-09T04:33:03.000000Z",
+    "updated_at": "2025-06-30T00:54:30.000000Z"
+   },
+   {
+    "id": 25,
+    "country": "South Africa",
+    "flag_url": "https://server.stagvpn.com/flag/za.png",
+    "status": 1,
+    "created_at": "2024-10-31T05:26:54.000000Z",
+    "updated_at": "2025-06-30T00:54:35.000000Z"
+   },
+   {
+    "id": 26,
+    "country": "Yemen",
+    "flag_url": "https://server.stagvpn.com/flag/ye.png",
+    "status": 1,
+    "created_at": "2025-05-23T10:59:34.000000Z",
+    "updated_at": "2025-05-23T10:59:34.000000Z"
+   },
+   {
+    "id": 27,
+    "country": "Vietnam",
+    "flag_url": "https://server.stagvpn.com/flag/vn.png",
+    "status": 1,
+    "created_at": "2025-05-23T11:07:16.000000Z",
+    "updated_at": "2025-05-23T11:07:16.000000Z"
+   },
+   {
+    "id": 28,
+    "country": "Afghanistan",
+    "flag_url": "https://server.stagvpn.com/flag/af.png",
+    "status": 1,
+    "created_at": "2025-06-04T18:05:27.000000Z",
+    "updated_at": "2025-06-04T18:05:27.000000Z"
+   },
+   {
+    "id": 29,
+    "country": "Albania",
+    "flag_url": "https://server.stagvpn.com/flag/al.png",
+    "status": 1,
+    "created_at": "2025-06-04T18:05:52.000000Z",
+    "updated_at": "2025-06-04T18:05:52.000000Z"
+   },
+   {
+    "id": 30,
+    "country": "Algeria",
+    "flag_url": "https://server.stagvpn.com/flag/dz.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:42:38.000000Z",
+    "updated_at": "2025-06-09T06:42:38.000000Z"
+   },
+   {
+    "id": 31,
+    "country": "Angola",
+    "flag_url": "https://server.stagvpn.com/flag/ao.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:42:56.000000Z",
+    "updated_at": "2025-06-09T06:42:56.000000Z"
+   },
+   {
+    "id": 32,
+    "country": "Argentina",
+    "flag_url": "https://server.stagvpn.com/flag/ar.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:54:57.000000Z",
+    "updated_at": "2025-06-09T06:54:57.000000Z"
+   },
+   {
+    "id": 33,
+    "country": "Austria",
+    "flag_url": "https://server.stagvpn.com/flag/at.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:55:10.000000Z",
+    "updated_at": "2025-06-09T06:55:10.000000Z"
+   },
+   {
+    "id": 34,
+    "country": "Azerbaijan",
+    "flag_url": "https://server.stagvpn.com/flag/az.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:55:18.000000Z",
+    "updated_at": "2025-06-09T06:55:18.000000Z"
+   },
+   {
+    "id": 35,
+    "country": "Bahrain",
+    "flag_url": "https://server.stagvpn.com/flag/bh.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:55:26.000000Z",
+    "updated_at": "2025-06-09T06:55:26.000000Z"
+   },
+   {
+    "id": 36,
+    "country": "Belarus",
+    "flag_url": "https://server.stagvpn.com/flag/by.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:55:42.000000Z",
+    "updated_at": "2025-06-09T06:55:42.000000Z"
+   },
+   {
+    "id": 37,
+    "country": "Belgium",
+    "flag_url": "https://server.stagvpn.com/flag/be.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:55:50.000000Z",
+    "updated_at": "2025-06-09T06:55:50.000000Z"
+   },
+   {
+    "id": 38,
+    "country": "Bhutan",
+    "flag_url": "https://server.stagvpn.com/flag/bt.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:55:58.000000Z",
+    "updated_at": "2025-06-09T06:55:58.000000Z"
+   },
+   {
+    "id": 39,
+    "country": "Bosnia and Herzegovina",
+    "flag_url": "https://server.stagvpn.com/flag/ba.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:56:06.000000Z",
+    "updated_at": "2025-06-09T06:56:06.000000Z"
+   },
+   {
+    "id": 40,
+    "country": "Bulgaria",
+    "flag_url": "https://server.stagvpn.com/flag/bg.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:56:24.000000Z",
+    "updated_at": "2025-06-09T06:56:24.000000Z"
+   },
+   {
+    "id": 41,
+    "country": "Chad",
+    "flag_url": "https://server.stagvpn.com/flag/td.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:56:36.000000Z",
+    "updated_at": "2025-06-09T06:56:36.000000Z"
+   },
+   {
+    "id": 42,
+    "country": "Chile",
+    "flag_url": "https://server.stagvpn.com/flag/cl.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:56:43.000000Z",
+    "updated_at": "2025-06-09T06:56:43.000000Z"
+   },
+   {
+    "id": 43,
+    "country": "Colombia",
+    "flag_url": "https://server.stagvpn.com/flag/co.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:56:50.000000Z",
+    "updated_at": "2025-06-09T06:56:50.000000Z"
+   },
+   {
+    "id": 44,
+    "country": "Comoros",
+    "flag_url": "https://server.stagvpn.com/flag/km.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:56:58.000000Z",
+    "updated_at": "2025-06-09T06:56:58.000000Z"
+   },
+   {
+    "id": 45,
+    "country": "Costa Rica",
+    "flag_url": "https://server.stagvpn.com/flag/cr.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:57:06.000000Z",
+    "updated_at": "2025-06-09T06:57:06.000000Z"
+   },
+   {
+    "id": 46,
+    "country": "Croatia",
+    "flag_url": "https://server.stagvpn.com/flag/hr.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:57:20.000000Z",
+    "updated_at": "2025-06-09T06:57:20.000000Z"
+   },
+   {
+    "id": 47,
+    "country": "Cyprus",
+    "flag_url": "https://server.stagvpn.com/flag/cy.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:57:29.000000Z",
+    "updated_at": "2025-06-09T06:57:29.000000Z"
+   },
+   {
+    "id": 48,
+    "country": "Czech Republic",
+    "flag_url": "https://server.stagvpn.com/flag/cz.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:57:38.000000Z",
+    "updated_at": "2025-06-09T06:57:38.000000Z"
+   },
+   {
+    "id": 49,
+    "country": "Denmark",
+    "flag_url": "https://server.stagvpn.com/flag/dk.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:57:45.000000Z",
+    "updated_at": "2025-06-09T06:57:45.000000Z"
+   },
+   {
+    "id": 50,
+    "country": "Ecuador",
+    "flag_url": "https://server.stagvpn.com/flag/ec.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:57:54.000000Z",
+    "updated_at": "2025-06-09T06:57:54.000000Z"
+   },
+   {
+    "id": 51,
+    "country": "Egypt",
+    "flag_url": "https://server.stagvpn.com/flag/eg.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:58:02.000000Z",
+    "updated_at": "2025-06-09T06:58:02.000000Z"
+   },
+   {
+    "id": 52,
+    "country": "El Salvador",
+    "flag_url": "https://server.stagvpn.com/flag/sv.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:58:09.000000Z",
+    "updated_at": "2025-06-09T06:58:09.000000Z"
+   },
+   {
+    "id": 53,
+    "country": "Eritrea",
+    "flag_url": "https://server.stagvpn.com/flag/er.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:58:17.000000Z",
+    "updated_at": "2025-06-09T06:58:17.000000Z"
+   },
+   {
+    "id": 54,
+    "country": "Estonia",
+    "flag_url": "https://server.stagvpn.com/flag/ee.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:58:26.000000Z",
+    "updated_at": "2025-06-09T06:58:26.000000Z"
+   },
+   {
+    "id": 55,
+    "country": "Ethiopia",
+    "flag_url": "https://server.stagvpn.com/flag/et.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:58:42.000000Z",
+    "updated_at": "2025-06-09T06:58:42.000000Z"
+   },
+   {
+    "id": 56,
+    "country": "Finland",
+    "flag_url": "https://server.stagvpn.com/flag/fi.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:58:49.000000Z",
+    "updated_at": "2025-06-09T06:58:49.000000Z"
+   },
+   {
+    "id": 57,
+    "country": "Georgia",
+    "flag_url": "https://server.stagvpn.com/flag/ge.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:59:07.000000Z",
+    "updated_at": "2025-06-09T06:59:07.000000Z"
+   },
+   {
+    "id": 58,
+    "country": "Ghana",
+    "flag_url": "https://server.stagvpn.com/flag/gh.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:59:33.000000Z",
+    "updated_at": "2025-06-09T06:59:33.000000Z"
+   },
+   {
+    "id": 59,
+    "country": "Greece",
+    "flag_url": "https://server.stagvpn.com/flag/gr.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:59:43.000000Z",
+    "updated_at": "2025-06-09T06:59:43.000000Z"
+   },
+   {
+    "id": 60,
+    "country": "Hungary",
+    "flag_url": "https://server.stagvpn.com/flag/hu.png",
+    "status": 1,
+    "created_at": "2025-06-09T06:59:59.000000Z",
+    "updated_at": "2025-06-09T06:59:59.000000Z"
+   },
+   {
+    "id": 61,
+    "country": "Indonesia",
+    "flag_url": "https://server.stagvpn.com/flag/id.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:00:18.000000Z",
+    "updated_at": "2025-06-09T07:00:18.000000Z"
+   },
+   {
+    "id": 62,
+    "country": "Iraq",
+    "flag_url": "https://server.stagvpn.com/flag/iq.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:00:25.000000Z",
+    "updated_at": "2025-06-09T07:00:25.000000Z"
+   },
+   {
+    "id": 63,
+    "country": "Ireland",
+    "flag_url": "https://server.stagvpn.com/flag/ie.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:00:32.000000Z",
+    "updated_at": "2025-06-09T07:00:32.000000Z"
+   },
+   {
+    "id": 64,
+    "country": "Israel",
+    "flag_url": "https://server.stagvpn.com/flag/il.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:00:39.000000Z",
+    "updated_at": "2025-06-09T07:00:39.000000Z"
+   },
+   {
+    "id": 65,
+    "country": "Italy",
+    "flag_url": "https://server.stagvpn.com/flag/it.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:00:48.000000Z",
+    "updated_at": "2025-06-09T07:00:48.000000Z"
+   },
+   {
+    "id": 66,
+    "country": "Jordan",
+    "flag_url": "https://server.stagvpn.com/flag/jo.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:01:05.000000Z",
+    "updated_at": "2025-06-09T07:01:05.000000Z"
+   },
+   {
+    "id": 67,
+    "country": "Kazakhstan",
+    "flag_url": "https://server.stagvpn.com/flag/kz.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:01:13.000000Z",
+    "updated_at": "2025-06-09T07:01:13.000000Z"
+   },
+   {
+    "id": 68,
+    "country": "Kenya",
+    "flag_url": "https://server.stagvpn.com/flag/ke.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:01:20.000000Z",
+    "updated_at": "2025-06-09T07:01:20.000000Z"
+   },
+   {
+    "id": 69,
+    "country": "Kuwait",
+    "flag_url": "https://server.stagvpn.com/flag/kw.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:01:39.000000Z",
+    "updated_at": "2025-06-09T07:01:39.000000Z"
+   },
+   {
+    "id": 70,
+    "country": "Latvia",
+    "flag_url": "https://server.stagvpn.com/flag/lv.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:01:46.000000Z",
+    "updated_at": "2025-06-09T07:01:46.000000Z"
+   },
+   {
+    "id": 71,
+    "country": "Lithuania",
+    "flag_url": "https://server.stagvpn.com/flag/lt.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:02:06.000000Z",
+    "updated_at": "2025-06-09T07:02:06.000000Z"
+   },
+   {
+    "id": 72,
+    "country": "North Macedonia",
+    "flag_url": "https://server.stagvpn.com/flag/mk.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:02:19.000000Z",
+    "updated_at": "2025-06-09T07:02:19.000000Z"
+   },
+   {
+    "id": 73,
+    "country": "Malta",
+    "flag_url": "https://server.stagvpn.com/flag/mt.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:02:32.000000Z",
+    "updated_at": "2025-06-09T07:02:32.000000Z"
+   },
+   {
+    "id": 74,
+    "country": "Mauritania",
+    "flag_url": "https://server.stagvpn.com/flag/mr.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:02:39.000000Z",
+    "updated_at": "2025-06-09T07:02:39.000000Z"
+   },
+   {
+    "id": 75,
+    "country": "Mauritius",
+    "flag_url": "https://server.stagvpn.com/flag/mu.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:08:10.000000Z",
+    "updated_at": "2025-06-09T07:08:10.000000Z"
+   },
+   {
+    "id": 76,
+    "country": "Mexico",
+    "flag_url": "https://server.stagvpn.com/flag/mx.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:08:20.000000Z",
+    "updated_at": "2025-06-09T07:08:20.000000Z"
+   },
+   {
+    "id": 77,
+    "country": "Moldova",
+    "flag_url": "https://server.stagvpn.com/flag/md.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:08:29.000000Z",
+    "updated_at": "2025-06-09T07:08:29.000000Z"
+   },
+   {
+    "id": 78,
+    "country": "Montenegro",
+    "flag_url": "https://server.stagvpn.com/flag/me.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:08:35.000000Z",
+    "updated_at": "2025-06-09T07:08:35.000000Z"
+   },
+   {
+    "id": 79,
+    "country": "Morocco",
+    "flag_url": "https://server.stagvpn.com/flag/ma.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:08:42.000000Z",
+    "updated_at": "2025-06-09T07:08:42.000000Z"
+   },
+   {
+    "id": 80,
+    "country": "Mozambique",
+    "flag_url": "https://server.stagvpn.com/flag/mz.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:08:49.000000Z",
+    "updated_at": "2025-06-09T07:08:49.000000Z"
+   },
+   {
+    "id": 81,
+    "country": "Myanmar",
+    "flag_url": "https://server.stagvpn.com/flag/mm.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:08:56.000000Z",
+    "updated_at": "2025-06-09T07:08:56.000000Z"
+   },
+   {
+    "id": 82,
+    "country": "Nepal",
+    "flag_url": "https://server.stagvpn.com/flag/np.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:09:03.000000Z",
+    "updated_at": "2025-06-09T07:09:03.000000Z"
+   },
+   {
+    "id": 83,
+    "country": "New Zealand",
+    "flag_url": "https://server.stagvpn.com/flag/nz.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:09:17.000000Z",
+    "updated_at": "2025-06-09T07:09:17.000000Z"
+   },
+   {
+    "id": 84,
+    "country": "Nigeria",
+    "flag_url": "https://server.stagvpn.com/flag/ng.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:09:26.000000Z",
+    "updated_at": "2025-06-09T07:09:26.000000Z"
+   },
+   {
+    "id": 85,
+    "country": "Norway",
+    "flag_url": "https://server.stagvpn.com/flag/no.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:09:34.000000Z",
+    "updated_at": "2025-06-09T07:09:34.000000Z"
+   },
+   {
+    "id": 86,
+    "country": "Oman",
+    "flag_url": "https://server.stagvpn.com/flag/om.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:09:46.000000Z",
+    "updated_at": "2025-06-09T07:09:46.000000Z"
+   },
+   {
+    "id": 87,
+    "country": "Pakistan",
+    "flag_url": "https://server.stagvpn.com/flag/pk.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:09:53.000000Z",
+    "updated_at": "2025-06-09T07:09:53.000000Z"
+   },
+   {
+    "id": 88,
+    "country": "Peru",
+    "flag_url": "https://server.stagvpn.com/flag/pe.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:10:00.000000Z",
+    "updated_at": "2025-06-09T07:10:00.000000Z"
+   },
+   {
+    "id": 89,
+    "country": "Philippines",
+    "flag_url": "https://server.stagvpn.com/flag/ph.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:10:07.000000Z",
+    "updated_at": "2025-06-09T07:10:07.000000Z"
+   },
+   {
+    "id": 90,
+    "country": "Portugal",
+    "flag_url": "https://server.stagvpn.com/flag/pt.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:10:19.000000Z",
+    "updated_at": "2025-06-09T07:10:19.000000Z"
+   },
+   {
+    "id": 91,
+    "country": "Puerto Rico",
+    "flag_url": "https://server.stagvpn.com/flag/pr.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:10:26.000000Z",
+    "updated_at": "2025-06-09T07:10:26.000000Z"
+   },
+   {
+    "id": 92,
+    "country": "Qatar",
+    "flag_url": "https://server.stagvpn.com/flag/qa.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:10:35.000000Z",
+    "updated_at": "2025-06-09T07:10:35.000000Z"
+   },
+   {
+    "id": 93,
+    "country": "Rwanda",
+    "flag_url": "https://server.stagvpn.com/flag/rw.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:10:56.000000Z",
+    "updated_at": "2025-06-09T07:10:56.000000Z"
+   },
+   {
+    "id": 94,
+    "country": "Saudi Arabia",
+    "flag_url": "https://server.stagvpn.com/flag/sa.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:11:03.000000Z",
+    "updated_at": "2025-06-09T07:11:03.000000Z"
+   },
+   {
+    "id": 95,
+    "country": "Senegal",
+    "flag_url": "https://server.stagvpn.com/flag/sn.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:11:10.000000Z",
+    "updated_at": "2025-06-09T07:11:10.000000Z"
+   },
+   {
+    "id": 96,
+    "country": "Serbia",
+    "flag_url": "https://server.stagvpn.com/flag/rs.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:11:18.000000Z",
+    "updated_at": "2025-06-09T07:11:18.000000Z"
+   },
+   {
+    "id": 97,
+    "country": "Slovakia",
+    "flag_url": "https://server.stagvpn.com/flag/sk.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:11:27.000000Z",
+    "updated_at": "2025-06-09T07:11:27.000000Z"
+   },
+   {
+    "id": 98,
+    "country": "Slovenia",
+    "flag_url": "https://server.stagvpn.com/flag/si.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:11:38.000000Z",
+    "updated_at": "2025-06-09T07:11:38.000000Z"
+   },
+   {
+    "id": 99,
+    "country": "Somalia",
+    "flag_url": "https://server.stagvpn.com/flag/so.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:11:45.000000Z",
+    "updated_at": "2025-06-09T07:11:45.000000Z"
+   },
+   {
+    "id": 100,
+    "country": "South Sudan",
+    "flag_url": "https://server.stagvpn.com/flag/ss.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:11:59.000000Z",
+    "updated_at": "2025-06-09T07:11:59.000000Z"
+   },
+   {
+    "id": 101,
+    "country": "Sri Lanka",
+    "flag_url": "https://server.stagvpn.com/flag/lk.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:12:11.000000Z",
+    "updated_at": "2025-06-09T07:12:11.000000Z"
+   },
+   {
+    "id": 102,
+    "country": "Sudan",
+    "flag_url": "https://server.stagvpn.com/flag/sd.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:12:18.000000Z",
+    "updated_at": "2025-06-09T07:12:18.000000Z"
+   },
+   {
+    "id": 103,
+    "country": "Sweden",
+    "flag_url": "https://server.stagvpn.com/flag/se.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:12:24.000000Z",
+    "updated_at": "2025-06-09T07:12:24.000000Z"
+   },
+   {
+    "id": 104,
+    "country": "Syria",
+    "flag_url": "https://server.stagvpn.com/flag/sy.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:12:43.000000Z",
+    "updated_at": "2025-06-09T07:12:43.000000Z"
+   },
+   {
+    "id": 105,
+    "country": "Taiwan",
+    "flag_url": "https://server.stagvpn.com/flag/tw.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:12:50.000000Z",
+    "updated_at": "2025-06-09T07:12:50.000000Z"
+   },
+   {
+    "id": 106,
+    "country": "Tajikistan",
+    "flag_url": "https://server.stagvpn.com/flag/tj.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:12:57.000000Z",
+    "updated_at": "2025-06-09T07:12:57.000000Z"
+   },
+   {
+    "id": 107,
+    "country": "Tanzania",
+    "flag_url": "https://server.stagvpn.com/flag/tz.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:13:04.000000Z",
+    "updated_at": "2025-06-09T07:13:04.000000Z"
+   },
+   {
+    "id": 108,
+    "country": "Thailand",
+    "flag_url": "https://server.stagvpn.com/flag/th.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:13:11.000000Z",
+    "updated_at": "2025-06-09T07:13:11.000000Z"
+   },
+   {
+    "id": 109,
+    "country": "Togo",
+    "flag_url": "https://server.stagvpn.com/flag/tg.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:13:17.000000Z",
+    "updated_at": "2025-06-09T07:13:17.000000Z"
+   },
+   {
+    "id": 110,
+    "country": "Tunisia",
+    "flag_url": "https://server.stagvpn.com/flag/tn.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:13:24.000000Z",
+    "updated_at": "2025-06-09T07:13:24.000000Z"
+   },
+   {
+    "id": 111,
+    "country": "Turkmenistan",
+    "flag_url": "https://server.stagvpn.com/flag/tm.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:13:40.000000Z",
+    "updated_at": "2025-06-09T07:13:40.000000Z"
+   },
+   {
+    "id": 112,
+    "country": "Ukraine",
+    "flag_url": "https://server.stagvpn.com/flag/ua.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:13:48.000000Z",
+    "updated_at": "2025-06-09T07:13:48.000000Z"
+   },
+   {
+    "id": 113,
+    "country": "United Arab Emirates",
+    "flag_url": "https://server.stagvpn.com/flag/ae.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:13:55.000000Z",
+    "updated_at": "2025-06-09T07:13:55.000000Z"
+   },
+   {
+    "id": 114,
+    "country": "Uzbekistan",
+    "flag_url": "https://server.stagvpn.com/flag/uz.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:14:10.000000Z",
+    "updated_at": "2025-06-09T07:14:10.000000Z"
+   },
+   {
+    "id": 115,
+    "country": "Venezuela",
+    "flag_url": "https://server.stagvpn.com/flag/ve.png",
+    "status": 1,
+    "created_at": "2025-06-09T07:14:17.000000Z",
+    "updated_at": "2025-06-09T07:14:17.000000Z"
+   },
+   {
+    "id": 116,
+    "country": "Andorra",
+    "flag_url": "https://server.stagvpn.com/flag/ad.png",
+    "status": 1,
+    "created_at": "2025-12-11T13:50:17.000000Z",
+    "updated_at": "2025-12-11T13:50:17.000000Z"
+   },
+   {
+    "id": 117,
+    "country": "Armenia",
+    "flag_url": "https://server.stagvpn.com/flag/am.png",
+    "status": 1,
+    "created_at": "2025-12-11T15:04:03.000000Z",
+    "updated_at": "2025-12-11T15:04:03.000000Z"
+   },
+   {
+    "id": 118,
+    "country": "Bahamas",
+    "flag_url": "https://server.stagvpn.com/flag/bs.png",
+    "status": 1,
+    "created_at": "2025-12-11T15:08:21.000000Z",
+    "updated_at": "2025-12-11T15:08:21.000000Z"
+   },
+   {
+    "id": 119,
+    "country": "Bolivia",
+    "flag_url": "https://server.stagvpn.com/flag/bo.png",
+    "status": 1,
+    "created_at": "2025-12-11T15:12:13.000000Z",
+    "updated_at": "2025-12-11T15:12:13.000000Z"
+   }
+  ],
+  "packages": []
+ },
+ "wolf": {
+  "version": "1.01",
+  "servers": [
+   {
+    "Name": "Test",
+    "Flag": "sg",
+    "ServerIPHost": "sg.phfiles.com",
+    "ServerType": "Normal Server",
+    "ServerProtocol": "OVPN",
+    "OpenVPNTCPPort": "110",
+    "OpenVPNUdpPort": "53",
+    "SSH_Port": "22",
+    "SSLPort": "443",
+    "isdefUser": true,
+    "OVPNUser": "",
+    "OVPNPass": "",
+    "UDP_obfs": "sandok",
+    "UDP_user": "",
+    "Default_cert": true,
+    "CustomCertificate": "",
+    "SlowDNSHost": "",
+    "SlowDNSKey": "5d30d19aa2524d7bd89afdffd9c2141575b21a728ea61c8cd7c8bf3839f97032",
+    "V2rayProtocol": "VLESS",
+    "V2rayUUID": "",
+    "V2rayPath": "",
+    "V2rayProto": "VLESS",
+    "H2pass": "",
+    "ServerInfo": "Test Server",
+    "TrojanPass": ""
+   }
+  ],
+  "networks": [
+   {
+    "Name": "Direct",
+    "Info": "Direct Connection",
+    "Payload": "",
+    "ProxyPort": "",
+    "SNI": "",
+    "DefaultProxy": false,
+    "CustomProxy": "",
+    "V2rayConfig": "",
+    "TunnelType": "Direct TCP",
+    "BugDNS": "8.8.8.8",
+    "URI": false,
+    "V2rayAddress": "[host]",
+    "V2rayPort": "443",
+    "V2rayNetwork": "Websocket",
+    "Route": "OVPN",
+    "V2rayHost": "[host]",
+    "Icon": "1APP.png",
+    "V2ray_is_SNI": true,
+    "VinJect": false,
+    "V2raySNI": "[host]",
+    "V2rayServerNeed": "Normal Server",
+    "Insecure": false
+   },
+   {
+    "Name": "🌐Websocket Mode 01 ",
+    "Info": "For Wifi and Data",
+    "Payload": "GET / HTTP/1.1[crlf]Host: [rlb][crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf]Connection: Upgrade[crlf][crlf]",
+    "ProxyPort": "80",
+    "SNI": "K0WS2DHJ7d1cSImioJxxJ/AU0Jbw3HLX1e+HOQ==",
+    "DefaultProxy": false,
+    "CustomProxy": "www.speedtest.net",
+    "V2rayConfig": "",
+    "TunnelType": "Http/Ws Proxy",
+    "BugDNS": "8.8.8.8",
+    "URI": false,
+    "V2rayAddress": "[host]",
+    "V2rayPort": "443",
+    "V2rayNetwork": "Websocket",
+    "Route": "OVPN",
+    "V2rayHost": "[host]",
+    "Icon": "1APP.png",
+    "V2ray_is_SNI": true,
+    "VinJect": false,
+    "V2raySNI": "[host]",
+    "V2rayServerNeed": "Normal Server",
+    "Insecure": false
+   },
+   {
+    "Name": "🇵🇭   SMART TNT SUN NO LOAD | CLOUDFRONT ",
+    "Info": "For Wifi and Data",
+    "Payload": "GET / HTTP/1.1[crlf]Host: www.research.net[crlf][crlf][split][crlf][crlf]X / HTTP/1.1[crlf]Host: www.research.net[crlf][crlf]GET / HTTP/1.1[crlf]Host: [rlb][crlf]Connection: upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+    "ProxyPort": "80",
+    "SNI": "E4fDOilwlUCBLeLwaolkhNPSvcwZ7P0pHDEB7A==",
+    "DefaultProxy": false,
+    "CustomProxy": "www.research.net",
+    "V2rayConfig": "",
+    "TunnelType": "Http/Ws Proxy",
+    "BugDNS": "8.8.8.8",
+    "URI": false,
+    "V2rayAddress": "[host]",
+    "V2rayPort": "443",
+    "V2rayNetwork": "Websocket",
+    "Route": "OVPN",
+    "V2rayHost": "[host]",
+    "Icon": "1APP.png",
+    "V2ray_is_SNI": true,
+    "VinJect": false,
+    "V2raySNI": "[host]",
+    "V2rayServerNeed": "Normal Server",
+    "Insecure": false
+   }
+  ]
+ }
+}
